@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 20161219152210) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.string   "email"
   end
 
 end
