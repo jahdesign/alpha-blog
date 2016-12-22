@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AlphaBlog</title>
+  <title>MASH Grade-a-Base</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <% render 'layouts/nav' %>
-  Hello
-<%= yield %>
+  <%= render 'layouts/navigation' %>
+  <div class="container">
+  <%= yield %>  
+  </div>
+
 
 </body>
 </html>
