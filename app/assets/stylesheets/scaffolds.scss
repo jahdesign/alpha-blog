@@ -38,13 +38,12 @@ div {
 }
 
 #notice {
-  color: green;
+  color:red;
+  font-weight: italic;
 }
 
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+  color:red;
 }
 
 #error_explanation {

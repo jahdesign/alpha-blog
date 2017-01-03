@@ -5,17 +5,12 @@ $navbar-default-bg: black;
 
 #logo {
 
-float: left;
-
-font-size: 1.7em;
-
-color: #fff;
-
-text-transform: uppercase;
-
-letter-spacing: -1px;
-
-font-weight: bold;
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 
 }
 
@@ -60,5 +55,9 @@ font-weight: bold;
 .footer ul {
   float: right;
   padding-right: 10px;
+  list-style: none;
+}
+
+.list-hide {
   list-style: none;
 }
